@@ -36,7 +36,7 @@ class Day2Questions {
 		float pencil= sc.nextInt();
 		float pen= sc.nextInt();
 		float eraser= sc.nextInt();
-		double total;
+
 		
 		double totalWithGST = (pencil+pen+eraser) + (pencil+pen+eraser)*0.18;
 		System.out.println("Total bill (With 18% GST) = " + totalWithGST);
